@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Raleway, sans-serif;
+    background: rgb(90, 43, 232);
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    cursor: pointer;
+}
+
+.App {
+    width: 100% ;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.App h1 {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.App .app-btn button {
+    width: 70px;
+    height: 35px;
+    background: transparent;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 16px;
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font: 400 14px Raleway, sans-serif;
+}
+
+.App .app-status{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.App .app-chart {
+    background: #fff;
+    padding: 24px;
+    margin-top: 40px;
+    border-radius: 8px;
+    position: relative;
+}
